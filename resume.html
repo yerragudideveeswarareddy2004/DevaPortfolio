@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deveeswara Reddy - Resume</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .resume {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            color: #2c3e50;
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .header p {
+            color: #7f8c8d;
+            margin: 10px 0;
+            font-size: 1.1rem;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            color: #34495e;
+        }
+        .section {
+            margin: 30px 0;
+        }
+        .section h2 {
+            color: #3498db;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .skill-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        .skill-category {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .skill-category h3 {
+            color: #2c3e50;
+            margin: 0 0 10px 0;
+        }
+        .skill-item {
+            display: flex;
+            justify-content: space-between;
+            margin: 5px 0;
+        }
+        .project {
+            margin: 20px 0;
+            padding: 15px;
+            border-left: 4px solid #3498db;
+            background: #f8f9fa;
+        }
+        .project h3 {
+            color: #2c3e50;
+            margin: 0 0 10px 0;
+        }
+        .project p {
+            margin: 5px 0;
+            color: #34495e;
+        }
+        .education-item {
+            margin: 15px 0;
+            padding: 10px;
+            border-left: 3px solid #e74c3c;
+        }
+        .education-item h3 {
+            color: #2c3e50;
+            margin: 0 0 5px 0;
+        }
+        .education-item h4 {
+            color: #7f8c8d;
+            margin: 0 0 5px 0;
+        }
+        .education-item p {
+            color: #34495e;
+            margin: 0;
+        }
+        .certification {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin: 10px 0;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 5px;
+        }
+        .certification i {
+            color: #3498db;
+            font-size: 1.2rem;
+        }
+        @media print {
+            body { background: white; }
+            .resume { box-shadow: none; }
+        }
+    </style>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="resume">
+        <div class="header">
+            <h1>Deveeswara Reddy Yerragudi</h1>
+            <p>Computer Science Student • Python Developer • DevOps Engineer</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>yerragudideveeswarareddy@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+91 6281489524</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Kadapa, Andhra Pradesh, India</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Professional Summary</h2>
+            <p>Passionate Computer Science student with strong foundation in Python, Linux Administration, DevOps Engineering, and Software Development. Experienced in building innovative solutions for real-world problems with expertise in AI/ML, web development, and database management.</p>
+        </div>
+
+        <div class="section">
+            <h2>Technical Skills</h2>
+            <div class="skill-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-item">
+                        <span>Python (OOPS)</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span>C Programming</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span>Java Basics</span>
+                        <span>75%</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Web Development</h3>
+                    <div class="skill-item">
+                        <span>HTML5 & CSS3</span>
+                        <span>88%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span>JavaScript</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span>Flask (Python)</span>
+                        <span>85%</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Databases & Tools</h3>
+                    <div class="skill-item">
+                        <span>MySQL</span>
+                        <span>82%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span>MongoDB</span>
+                        <span>78%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span>Git & GitHub</span>
+                        <span>85%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>AGRISENCE2025</h3>
+                <p><strong>Description:</strong> Smart agriculture project for predicting soil pH levels and crop recommendations using Machine Learning.</p>
+                <p><strong>Technologies:</strong> Python, Machine Learning, Jupyter Notebook, Agriculture</p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/yerragudideveeswarareddy2004/AGRISENCE2025" target="_blank">View Project</a></p>
+            </div>
+            <div class="project">
+                <h3>Movie Booking System</h3>
+                <p><strong>Description:</strong> Movie ticket booking system with user registration, login, and OTP confirmation.</p>
+                <p><strong>Technologies:</strong> Python, SQLite, HTML, Web App</p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/yerragudideveeswarareddy2004/MovieBookingSystem" target="_blank">View Project</a></p>
+            </div>
+            <div class="project">
+                <h3>Deva-S-Transport Website</h3>
+                <p><strong>Description:</strong> Farmer-centric transport booking platform for agricultural goods logistics.</p>
+                <p><strong>Technologies:</strong> HTML, CSS, Bootstrap, Transport</p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/yerragudideveeswarareddy2004/Deva-S-Transport_Website" target="_blank">View Project</a></p>
+            </div>
+
+            <div class="project">
+                <h3>E-commerce Website</h3>
+                <p><strong>Description:</strong> Fully functional online store with product browsing, cart, and order placement.</p>
+                <p><strong>Technologies:</strong> TypeScript, E-commerce, Web Development, Shopping Cart</p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/yerragudideveeswarareddy2004/E-commerce" target="_blank">View Project</a></p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Bachelor of Technology in Computer Science</h3>
+                <h4>Kalasalingam Academy of Research and Education</h4>
+                <p><strong>Duration:</strong> 2022 - 2026</p>
+                <p><strong>Current CGPA:</strong> 8.61</p>
+                <p><strong>Specialization:</strong> Cyber security </p>
+            </div>
+            <div class="education-item">
+                <h3>Intermediate (11th, 12th standard)</h3>
+                <h4>Sri Chaitanya Junior College, Tirupathi</h4>
+                <p><strong>Duration:</strong> 2020 - 2022</p>
+                <p><strong>Marks:</strong> 947/1000</p>
+                <p><strong>Stream:</strong> Science with Mathematics</p>
+            </div>
+            <div class="education-item">
+                <h3>10th Class</h3>
+                <h4>Z.P. High School Kallur, Proddutur</h4>
+                <p><strong>Graduated:</strong> 2020</p>
+                <p><strong>Marks:</strong> 582/600</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Certifications</h2>
+            <div class="certification">
+                <i class="fas fa-certificate"></i>
+                <div>
+                    <h4>Python Programming</h4>
+                    <p>Geeks for Geeks (2024)</p>
+                </div>
+            </div>
+            <div class="certification">
+                <i class="fas fa-database"></i>
+                <div>
+                    <h4>Database Management Systems</h4>
+                    <p>Code Chef (2024)</p>
+                </div>
+            </div>
+            <div class="certification">
+                <i class="fab fa-java"></i>
+                <div>
+                    <h4>Java Programming</h4>
+                    <p>Geeks for Geeks (2025)</p>
+                </div>
+            </div>
+            <div class="certification">
+                <i class="fas fa-code"></i>
+                <div>
+                    <h4>Structured Query Language</h4>
+                    <p>Simplilearn (2025)</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Social Links</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <a href="https://github.com/yerragudideveeswarareddy2004" target="_blank">GitHub Profile</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/deveeswara-reddy-yerragudi-ba9733268" target="_blank">LinkedIn Profile</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
